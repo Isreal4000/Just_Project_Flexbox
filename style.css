@@ -17,9 +17,8 @@ header {
   border: 2px solid #155eef;
   border-radius: 8px;
   flex-wrap: wrap;
-  margin-right: 2%;
-  margin-left: 2%;
-  margin-bottom: 1%;
+  margin: 0 2%;
+  padding: 0 1.5%;
 }
 
 a {
@@ -54,19 +53,15 @@ a {
   background: #f9fbff;
   border: 2px solid #155eef;
   border-radius: 8px;
+  margin-top: 1%;
   margin-right: 2%;
   margin-left: 2%;
   margin-bottom: 3%;
+  padding: 0 1.5%;
 }
 
-.section-1 img{
-    width: 100%;
-}
-.child-1{
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-.child-2{
+
+.child{
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -122,29 +117,33 @@ button {
   margin-right: 2%;
   margin-left: 2%;
   margin-bottom: 3%;
+  padding: 3.0% 1.5%;
 }
 
 .section-2 img{
-    width: 535px;
-    height: 384px;
+    border: 3px solid #155eef;
+}
+
+.child-2{
+  display: flex;
+  flex-direction: column;
 }
 
 .section-2 h1 {
   font-family: "Halant", serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 40px;
   line-height: 120%;
+  margin-bottom: 1.5%;
   color: #041330;
-  margin: 10% 10%;
 }
 
 .section-2 p {
   font-family: "Manrope", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 150%;
+  letter-spacing: 0.5px;
   text-align: justify;
   color: #2e3a53;
 }
@@ -158,22 +157,27 @@ button {
   margin-right: 2%;
   margin-left: 2%;
   margin-bottom: 3%;
+  padding: 1.5% 1.5%;
+/* gap: 24px; */
+}
+.child-3{
+  background: #F9FBFF;
+  padding: 4.0% 3.0%;
+  width: 100%;
 }
 
 .section-3 h2 {
   font-family: "Halant", serif;
-  font-style: normal;
   font-weight: 600;
   font-size: 40px;
   line-height: 120%;
   color: #041330;
+  margin-bottom: 4%;
 }
 
 .section-3 p,
 ul {
   font-family: "Manrope", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 24px;
   line-height: 120%;
   color: #2e3a53;
